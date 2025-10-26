@@ -34,9 +34,9 @@ def main():
     print(f"Avg Profit: {res/10}")
 
     # 4. 자동 매매
-    #signal = decide_trade(model_save_path, pd.read_csv(data_path), seq_length=20)
-    #execute_trade(ticker, signal)
-    #time.sleep(60)
+    signal = decide_trade(model_save_path, pd.read_csv(data_path), seq_length=20)
+    execute_trade(ticker, signal)
+    time.sleep(60)
 
 if __name__ == "__main__":
     main()

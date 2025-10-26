@@ -14,7 +14,3 @@ data/
 # 모델 디렉토리
 models/
 *.pth
-
-# MacOS 및 Windows 시스템 파일
-.DS_Store
-Thumbs.db
